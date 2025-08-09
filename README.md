@@ -14,3 +14,5 @@
 ## Technologies used
 - Frontend: HTML, CSS, JAVASCRIPT
 # ScreenShots
+#### Home Page
+  - ![](https://github.com/Sayanibrahmachary/Music-Webpage/blob/main/Assets/HomePage.png)
