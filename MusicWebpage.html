@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Clone</title>
+    <link rel="stylesheet" href="MusicWebpageCSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="playlist">
+            <div class="playlist1">
+                <div class="upperPart">
+                    <h2>Playlist</h2>
+                    <br />
+                    <ul>
+                        <li><i class="fa-solid fa-music" style="color: #ededed;"></i></li>
+                        <li><h3>Playlist</h3></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-list-check" style="color: #ffffff;"></i></li>
+                        <li><h3>List Listening</h3></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-dot" style="color: #ffffff;"></i></li>
+                        <li><h3>Recommended</h3></li>
+                    </ul>
+                </div>
+                <div class="lowerPart">
+                    <div class="song">
+                        <div class="song1">
+                            <h3>01</h3>
+                            <img src="https://i.ytimg.com/vi/nJZcbidTutE/maxresdefault.jpg">
+                            <h4>Sooraj Dooba hain<br> <p>Arijit Singh</p>
+                            </h4>
+                            <i class="fa-solid fa-circle-play" id="add" style="color:rgb(28, 203, 28);"></i>
+                        </div>                          
+                        <div class="song2" id="song2">
+                            <h3>02</h3>
+                            <img src="https://c.saavncdn.com/044/Deva-Deva-From-Brahmastra-Hindi-2022-20220812225424-500x500.jpg">
+                            <h4>Deva Deva<br> <p>Arijit Singh</p></h4>
+                            <i class="fa-solid fa-circle-play" id="icon" style="color:rgb(28, 203, 28) ;"></i>
+                        </div>
+                        <div class="song3">
+                            <h3>03</h3>
+                            <img src="https://i.ytimg.com/vi/8MOR39rXTNA/maxresdefault.jpg">
+                            <h4>Meet<br> <p>Arijit Singh</p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song4">
+                            <h3>04</h3>
+                            <img src="https://i.ytimg.com/vi/2ibPLYwVM38/maxresdefault.jpg">
+                            <h4>Saathiya<br> <p>Shreya Ghoshal</p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song5">
+                            <h3>05</h3>
+                            <img src="https://i1.sndcdn.com/artworks-000178363907-ovjrd8-t500x500.jpg">
+                            <h4>Koi tumsa nahi<br> <p>Shreya Ghoshal and Sonu Nigam
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song1">
+                            <h3>06</h3>
+                            <img src="https://c.saavncdn.com/469/Hero-Hindi-2015-500x500.jpg">
+                            <h4>Khoya khoya<br> <p>Mohit Chauhan, Priya Panchal</p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song6">
+                            <h3>07</h3>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ08qJGxdKO0CTjdzOAVVOiPV6Jnl4bc3rCKCpRX-SAZJ77iN5F2BPQdfA9rksP46Khok&usqp=CAU">
+                            <h4>Tu chale<br> <p>Arijit Singh and Shreya Ghoshal
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song1">
+                            <h3>08</h3>
+                            <img src="https://i.ytimg.com/vi/z3UHfi9vpbc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDx1D61ue4Dmqb4tz4Op1wOAiT7zQ">
+                            <h4>Milne Mujhse aayi<br> <p>Arijit Singh
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song7">
+                            <h3>09</h3>
+                            <img src="https://i.ytimg.com/vi/RSYHtpVRSjU/maxresdefault.jpg">
+                            <h4>Oosupodu<br> <p>Shakthikanth Karthick
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song1">
+                            <h3>10</h3>
+                            <img src="https://i.ytimg.com/vi/x6N4ACkT1sQ/maxresdefault.jpg">
+                            <h4>Edo jaruguthondi<br /> <p>Aravind Srinivas
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" id="icon1" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song7">
+                            <h3>11</h3>
+                            <img src="https://static.langimg.com/photo/imgsize-172880,msid-75484687/navbharat-times.jpg">
+                            <h4>Jag Ghumaya<br> <p>Rahat Fateh Ali Khan
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color: rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song3">
+                            <h3>12</h3>
+                            <img src="https://c.saavncdn.com/023/Raabta-Hindi-2017-500x500.jpg">
+                            <h4>Raabta<br> <p>Arijit Singh
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color:rgb(28, 203, 28);"></i>
+                        </div> 
+                        <div class="song3">
+                            <h3>13</h3>
+                            <img src="https://i.ytimg.com/vi/LN07AbMX_HU/sddefault.jpg">
+                            <h4>Befikra<br> <p>Arijit Singh
+                            </p></h4>
+                            <i class="fa-solid fa-circle-play" style="color:rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song8">
+                            <h3>14</h3>
+                            <img src="https://eisamay.com/thumb/104315448/bengali-song-104315448.jpg?imgsize=99026&width=1200&height=900&resizemode=75">
+                            <h4>Baundula Ghuri<br> <p>Anupam Roy</p></h4>
+                            <i class="fa-solid fa-circle-play" style="color:rgb(28, 203, 28);"></i>
+                        </div>
+                        <div class="song9">
+                            <h3>15</h3>
+                            <img src="https://c.saavncdn.com/196/Dube-Dube-Bengali-2021-20210531150814-500x500.jpg">
+                            <h4>Duba duba valo basi<br> <p>Tanjib Sarowar</p></h4>
+                            <i class="fa-solid fa-circle-play" style="color:rgb(28, 203, 28);"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular">
+            <div class="popular1">
+                <div class="nav-bar">
+                    <div class="nav-first-div">
+                        <p>Home</p>
+                    </div>
+                    <div class="nav-sec-div">
+                        <p>My Library</p>
+                    </div>
+                    <div class="nav-third-div">
+                        <p>About</p>
+                    </div>
+                    <div class="nav-fourth-div">
+                        <i class="fa-solid fa-magnifying-glass" style="color: grey;"></i>
+                        <input type="search">
+                    </div>
+                    <div class="nav-five-div">
+                        <div class="me">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+                <div class="follow">
+                    <div class="follow-div">
+                        <h3>“Music is the language of the spirit.Where words fail, music speaks.Life is like a beautiful melody, only the lyrics are messed up.”</h3>
+                        <button>Follow</button>
+                        <button>Sign in</button>
+                    </div>
+                </div>
+                <div class="music">
+                    <div class="heading">
+                        <h2>Recommendation</h2>
+                    </div>
+                    <div class="box-div">
+                        <div class="box">
+                            <div class="box1">
+                                <img src="https://i.ytimg.com/vi/Nly8TUAGyYI/sddefault.jpg">
+                                <h4>Takey Olpo Kachhe</h4>
+                                <p>Mahtim Shakib</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://i.ytimg.com/vi/sCrKk4_9Q2A/maxresdefault.jpg" id="img">
+                                <h4>Dil jhoom</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://a10.gaanacdn.com/images/albums/39/4895539/crop_480x480_4895539.jpg">
+                                <h4>Ram Siya Ram</h4>
+                                <p>Parampara, Sachet Tandon</p>
+                            </div>
+
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/026/Chaleya-From-Jawan-Hindi-2023-20230814014337-500x500.jpg">
+                                <h4>Chaleya</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+
+                            <div class="box1">
+                                <img src="https://miro.medium.com/v2/resize:fit:640/1*JopmQPNCqr3GpAfX9kUMIw.jpeg">
+                                <h4>Apna Bana le</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/696/Guli-Mata-Hindi-2023-20230714050721-500x500.jpg">
+                                <h4>Guli mata</h4>
+                                <p>Saad Lamjarred and Shreya Ghoshal</p>
+                            </div>
+
+                            <div class="box1">
+                                <img src="https://media.lyricsmint.com/photos/20741/maxresdefault-36_cover.jpg">
+                                <h4>Naiyo Lagda</h4>
+                                <p>Kamaal Khan and Palak Muchhal
+                                </p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://i.ytimg.com/vi/1hpBIOBxIJU/hqdefault.jpg">
+                                <h4>Come down</h4>
+                                <p> Rema, Selena Gomez</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/232/On-My-Way-English-2019-20191022230109-500x500.jpg">
+                                <h4>On the way</h4>
+                                <p>Alen Walker</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://i.ytimg.com/vi/b5DWUGC-DuY/hqdefault.jpg">
+                                <h4>Jage achi</h4>
+                                <p>Prasenjit Mallick And Dipanwita Chowdhury</p>
+                            </div>
+                            <hr>
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/255/Ekhon-Onek-Raat-LoFi-Bengali-2023-20230906014709-500x500.jpg">
+                                <h4>akhon onar raat</h4>
+                                <p>Anupam Roy</p>
+                            </div>
+                            <hr>
+                            <div class="box1">
+                                <img src="https://static.toiimg.com/photo/msid-90794115/90794115.jpg">
+                                <h4>Valobasari morsum</h4>
+                                <p>Arijit Singh and Shreya Ghoshal</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/543/Rosogolla-Bengali-2018-20190408052216-500x500.jpg">
+                                <h4>Tapur tupur</h4>
+                                <p>Arnab Dutta</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXiKDyFH3VMLDjKd8p-ZCu-rE5RDMBQvCP-d2jAjw-ovl5jD8kHWFH_i_5REtBMbg8ct4&usqp=CAU">
+                                <h4>Tumi Jake valobaso</h4>
+                                <p>Anupam Roy and Imon Chakraborty</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://i.ytimg.com/vi/JrNMyzsYr4M/sddefault.jpg">
+                                <h4>Love me like you do</h4>
+                                <p> Ellie Goulding
+                                </p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAnjns9fMRISYjLFMPR9L4yNTuZXY81kY-fDh_2Inq-6gaoG1CDePUxnU8kI2f7ZJl6Q&usqp=CAU">
+                                <h4>Perfect</h4>
+                                <p>Ed Sheeran</p>
+                            </div>
+                            <div class="box1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMtOCZ6IK6z6-vDHloeWFDks1r9efMPUka6MmtCmqczGnfuMv5YL1w78hPSQqnPuzd2tg&usqp=CAU">
+                                <h4>Tumhi ho bandhu</h4>
+                                <p> Kavita Seth and Neeraj Shridhar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="last1">
+                        <h2>Popular Singer</h2>
+                    </div>
+                    <div class="last-part">
+                        <div class="first-div"></div>
+                        <div class="first1-div"></div>
+                        <div class="first2-div"></div>
+                        <div class="first3-div"></div>
+                        <div class="first4-div"></div>
+                        <div class="first5-div"></div>
+                        <div class="first6-div"></div>
+                        <div class="first7-div"></div>
+                        <div class="first8-div"></div>
+                        <div class="first9-div"></div>
+                        <div class="first10-div"></div>
+                        <div class="first11-div"></div>
+                        <div class="first12-div"></div>
+                        <div class="first13-div"></div>
+                        <div class="first14-div"></div>
+                        <div class="first15-div"></div>
+                        <div class="first16-div"></div>
+                    </div>
+                </div>
+                <div class="player">
+                    <div class="player-parts">
+                        <i class="fa-solid fa-forward-step" style="color: #ffffff;"></i>
+                        <div onclick="playPause()"><i class="fa-solid fa-play" id="control" style="color: #fafcff;"></i></div>
+                        <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
+                        <span id="currentTime" data-target="4.56"></span>
+                        <input type="range" id="music1">
+                        <span id="lastTime">04:24</span>
+                        <i class="fa-solid fa-volume-high"id="volume-icon" style="color: #fcfcfd;"></i>
+                        <input type="range" id="volume">
+                    </div>
+                </div>
+                <div class="music-all">
+                    <div class="popular-song">
+                        <h2>Popular Songs</h2>
+                    </div>
+                    <div class="box-div1">
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/056/Bhool-Bhulaiyaa-Hindi-2007-20221122005742-500x500.jpg">
+                                <h4>Allah Hafiz</h4>
+                                <p>KK & Pritam Chakraborty</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/493/Kesariya-Audio-Teaser-From-Brahmastra--Hindi-2022-20220414173718-500x500.jpg">
+                                <h4>Kesariya</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://i.pinimg.com/564x/20/53/eb/2053eb409eaea0083c59d4470ab6c7b2.jpg">
+                                <h4>Illahi</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://static.toiimg.com/photo/msid-71591802/71591802.jpg">
+                                <h4>Rongoboti</h4>
+                                <p>Imon Chakraborty</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/238/Shershaah-Original-Motion-Picture-Soundtrack--Hindi-2021-20210815181610-500x500.jpg">
+                                <h4>Raataan Lambiyan</h4>
+                                <p>Jubin Nautiyal</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="data:image/jpeg;base64,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">
+                                <h4>Param Sundari</h4>
+                                <p>Shreya Ghoshal</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://www.hinditracks.in/wp-content/uploads/2022/12/Jhoome-Jo-Pathaan-lyrics.jpg">
+                                <h4>jhuma jo Pathan</h4>
+                                <p> Arijit Singh</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://i.ytimg.com/vi/GVHxcwoujMU/maxresdefault.jpg">
+                                <h4>Naatu naatu</h4>
+                                <p> Rahul Sipligunj & Kaala Bhairava.</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://c.saavncdn.com/223/Jab-We-Met-Hindi-2007-20231016162009-500x500.jpg">
+                                <h4>Tumsa hi</h4>
+                                <p>Mohit Chauhan</p>
+                            </div>
+                        </div>
+
+                        <div class="option">
+                            <div class="box1">
+                                <img src="https://i0.wp.com/fillumdekho.com/wp-content/uploads/2018/11/Qafirana.jpg?fit=1080%2C1080">
+                                <h4>Qaafirana</h4>
+                                <p>Arijit Singh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <audio id="song">
+        <source src="Deva-Deva.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="song1">
+        <source src="Edo Jarugutondi.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+<script>
+    //Javascript
+    
+    let progress=document.getElementById('music1');
+    let song=document.getElementById('song');
+    let controlIcon=document.getElementById('control');
+    let icon=document.getElementById('icon');
+    let icon1=document.getElementById('icon1');
+    let song1=document.getElementById('song1');
+    let song2=document.getElementById('song2');
+    let image=document.getElementById('img');
+
+    song.onloadedmetadata=function(){
+        progress.max=song.duration;
+        progress.value=song.currentTime;
+    }
+
+    function playPause(){
+        if(controlIcon.classList.contains("fa-pause")){
+            song.pause();
+            controlIcon.classList.remove("fa-pause");
+            controlIcon.classList.add("fa-play");
+        }else{
+            song.play();
+            controlIcon.classList.add("fa-pause");
+            controlIcon.classList.remove("fa-play");
+        }
+    }
+
+    
+    if(song.play()){
+        setInterval(()=>{
+            progress.value=song.currentTime;
+        },500);
+    }
+
+    progress.onchange=function(){
+        song.play();
+        song.currentTime=progress.value;
+        controlIcon.classList.add("fa-pause");
+        controlIcon.classList.remove("fa-play");
+    }
+
+    icon.onclick=function(){
+        if(song.paused){
+            song.play();
+            icon.classList.add("fa-circle-pause");
+            icon.classList.remove("fa-circle-play");
+            controlIcon.classList.add("fa-pause");
+            controlIcon.classList.remove("fa-play");
+        }
+        else{
+            song.pause();
+            icon.classList.add("fa-circle-play");
+            icon.classList.remove("fa-circle-pause");
+            controlIcon.classList.remove("fa-pause");
+            controlIcon.classList.add("fa-play");
+        }
+    }
+
+
+
+    //second song
+    song1.onloadedmetadata=function(){
+        progress.max=song1.duration;
+        progress.value=song1.currentTime;
+    }
+
+    function playPause(){
+        if(controlIcon.classList.contains("fa-pause")){
+            song1.pause();
+            controlIcon.classList.remove("fa-pause");
+            controlIcon.classList.add("fa-play");
+        }else{
+            song1.play();
+            controlIcon.classList.add("fa-pause");
+            controlIcon.classList.remove("fa-play");
+        }
+    }
+
+    if(song1.play()){
+        setInterval(()=>{
+            progress.value=song1.currentTime;
+        },500);
+    }
+
+    progress.onchange=function(){
+        song1.play();
+        song1.currentTime=progress.value;
+        controlIcon.classList.add("fa-pause");
+        controlIcon.classList.remove("fa-play");
+    }
+
+    icon1.onclick=function(){
+        if(song1.paused){
+            song1.play();
+            icon1.classList.add("fa-circle-pause");
+            icon1.classList.remove("fa-circle-play");
+            controlIcon.classList.add("fa-pause");
+            controlIcon.classList.remove("fa-play");
+        }
+        else{
+            song1.pause();
+            icon1.classList.add("fa-circle-play");
+            icon1.classList.remove("fa-circle-pause");
+            controlIcon.classList.remove("fa-pause");
+            controlIcon.classList.add("fa-play");
+        }
+    }
+
+</script>
+</html> 
